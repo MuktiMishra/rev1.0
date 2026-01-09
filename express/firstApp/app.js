@@ -41,6 +41,8 @@ app.get('/temp', (req, res) => {
 
 });
 
+
+//server side rendering - sending html file from server to client
 app.get('/file',(req, res)=>{
     res.sendFile(__dirname + '/index.html'); // to send html file from server to client
 })
