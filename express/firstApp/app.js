@@ -75,3 +75,5 @@ app.listen(4000, () => {
     console.log("Server started at port 4000");
 });
  // u can use between port no 3000 to 8000 -> as they are not reserved by system
+
+// to run this file -> node app.js
