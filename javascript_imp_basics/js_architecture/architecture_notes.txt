@@ -30,3 +30,12 @@ The application is split into multiple independent services,
 each handling a specific business function.
 Each service can be developed, deployed, and scaled independently.
 Example: The same e-commerce app split into User Service, Catalog Service, Payment Service, Order Service.
+
+// Hoisting -- in javascript the variable declaration moves to the top thenafter that value assingnation
+comes into picture 
+
+console.log(a); // prints undefined
+let a=5 ;
+console.log(a); // prints 5
+
+// splice and slice functions -- read and learn
