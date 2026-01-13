@@ -3,4 +3,14 @@ Js Architecture
 1. Architecture
 2. Event Loop
 3. Browser runtime
-4. 
+
+//dev --> request --> |     |     __________    ____ async (non blocking)
+                      |     | --> Event Loop --|
+                      |     |     ___________   ____ sync
+// js is single-treaded but the os/server/browser is multi-treaded
+
+
+// what is applets in java ??
+
+// libuv - a c++ library 
+(what livuv in node does?)
