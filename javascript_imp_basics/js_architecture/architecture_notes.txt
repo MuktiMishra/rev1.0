@@ -39,3 +39,18 @@ let a=5 ;
 console.log(a); // prints 5
 
 // splice and slice functions -- read and learn
+
+arr = [1,2,3,,5] -- double comma throws no error
+it means [1,2,3, empty, 5] 
+
+arr.shift() -- removes 1st element of arr and returns it
+arr = [2,3,,5]
+
+arr.unshift() -- removes last element of arr abd returns it
+arr=[2,3,]
+
+empty!=null
+arr[2]=null
+
+// bitwise shift <<< , >>> (left shift , right shift)
+
