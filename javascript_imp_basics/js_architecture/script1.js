@@ -5,3 +5,11 @@ document.getElementById('myButton').addEventListener('click', function() {
     
     alert('Button clicked!');
 });
+
+var a = {
+    name : 'Mukti',
+    age : 25,
+    greet: function() {
+        console.log('Hello, ' + this.name);
+    }
+}
