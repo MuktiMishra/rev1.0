@@ -1,0 +1,6 @@
+Js Architecture 
+
+1. Architecture
+2. Event Loop
+3. Browser runtime
+4. 
