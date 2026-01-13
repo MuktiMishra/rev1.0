@@ -14,3 +14,7 @@ Js Architecture
 
 // libuv - a c++ library 
 (what livuv in node does?)
+Ans: libuv is a cross-platform, open-source C library that provides the core
+ infrastructure for Node.js's non-blocking, event-driven architecture. It acts as 
+ the backbone that enables Node.js to perform asynchronous I/O operations efficiently, 
+ even though JavaScript itself runs on a single thread. 
