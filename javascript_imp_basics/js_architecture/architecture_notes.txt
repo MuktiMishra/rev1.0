@@ -78,3 +78,4 @@ obj.freeze()
 // read mdn docs
 // let var const diff with code and edge cases
 // too much chaos
+// once you taste premium , ordinary's taste fades automatically 
