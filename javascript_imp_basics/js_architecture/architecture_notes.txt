@@ -75,4 +75,4 @@ console.log(x); // prints 3
 
 obj.freeze()
 
-// i
+// read mdn docs
