@@ -54,3 +54,25 @@ arr[2]=null
 
 // bitwise shift <<< , >>> (left shift , right shift)
 
+//JSON.stringify(objecta) and JSON.parse(string)
+
+// this keyword tries to acess the global varibales
+
+let x=3;
+function mfn(){
+   let x=2;
+   console.log(x); // prints 2
+   console.log(x.this); // prints undefined
+}
+console.log(x); // prints 3
+
+// const obj = {
+    name:"mukti",
+    age:20
+}
+// even its const but u can change the value 
+// if u want that u can';t change value of objects later u can simply use freeze()
+
+obj.freeze()
+
+// i
