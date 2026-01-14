@@ -76,3 +76,4 @@ console.log(x); // prints 3
 obj.freeze()
 
 // read mdn docs
+// let var const diff with code and edge cases
