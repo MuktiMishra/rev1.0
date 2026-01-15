@@ -96,3 +96,9 @@ Uses module.exports to export functions, objects, or variables.)
 // on what parameter we say a language is developed
 the more concpts it covers it makes it more developed 
 so when oops came in java c became mid leval in development
+
+// live reload and hot reload
+Feature 	          Hot Reloading	                    |         Live Reloading
+App State	     Preserved (maintains current state)	|     Reset (loses current state)
+Update Scope	Only injects changed modules	        |    Reloads the entire application
+Speed	        Generally faster due to partial updates	|    Slower due to full restart
