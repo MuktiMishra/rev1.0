@@ -94,4 +94,5 @@ Uses module.exports to export functions, objects, or variables.)
 - only nodejs supports commonjs browser dont
 
 // on what parameter we say a language is developed
-the more concpts it covers it makes it more developed
+the more concpts it covers it makes it more developed 
+so when oops came in java c became mid leval in development
