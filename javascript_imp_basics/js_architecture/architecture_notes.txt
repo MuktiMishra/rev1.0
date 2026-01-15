@@ -102,3 +102,7 @@ Feature 	          Hot Reloading	                    |         Live Reloading
 App State	     Preserved (maintains current state)	|     Reset (loses current state)
 Update Scope	Only injects changed modules	        |    Reloads the entire application
 Speed	        Generally faster due to partial updates	|    Slower due to full restart
+
+
+// Read wbout react architecture
+// write a script to deep copy a nestes object in a different variabl3e by using a function
