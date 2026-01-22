@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>AJAX Example</title>
+    <script>
+        function loadData() {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = () => {
+                document.getElementById('result').innerText = xhr.responseText;
+            };
+            xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/1', true);
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h1>AJAX Example</h1>
+    <button onclick="loadData()">Load Data</button>
+    <div id="result"></div>
+</body>
+</html>
+
+// what is AJAX?
+// AJAX (Asynchronous JavaScript and XML) is a technique used in web development to create
+// asynchronous web applications. It allows web pages to be updated asynchronously by exchanging
+// small amounts of data with the server behind the scenes. This means that it is possible to update
+// parts of a web page, without reloading the whole page.
+// In the example above, we use AJAX to fetch data from a placeholder API and display it on the page
+// when the button is clicked. The XMLHttpRequest object is used to send a GET request to
+// the API endpoint, and the response is displayed in the 'result' div.
+// This allows for a smoother user experience as the page does not need to be reloaded to see new data.
