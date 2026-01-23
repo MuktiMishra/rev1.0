@@ -17,7 +17,3 @@ const server = http.createServer((req, res) => {
         res.end('Not Found\n');
     }
 });
-
-// ajax tuffs
-
-//fatal reps
