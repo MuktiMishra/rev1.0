@@ -10,10 +10,12 @@ const server = http.createServer((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         const data = { message: 'This is some JSON data' };
         res.end(JSON.stringify(data));
-    }
+    }   
     else {
         res.statusCode = 404;
         res.setHeader('Content-Type', 'text/plain');
         res.end('Not Found\n');
     }
 });
+
+// ajax tuffs
